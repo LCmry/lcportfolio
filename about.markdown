@@ -1,18 +1,25 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: about
+title: "About"
+skills:
+  - Project Management & Coordination
+  - Change Management
+  - Operations & Process Improvement
+  - Stakeholder Communication
+  - Onboarding & Team Enablement
+  - Customer-Centered Quality Practices
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I’m a project manager and consultant with a background in engineering management,
+anthropology, and computer science. I help teams navigate complexity by creating clear
+systems, communication structures, and actionable plans.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My experience includes:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- Leading distributed engineering teams through organizational change
+- Designing onboarding systems and communication frameworks for high-growth teams
+- Improving operational clarity for construction and service businesses
+- Supporting clients in achieving customer-centered quality certifications
 
+I enjoy turning messy, ambiguous situations into calm, structured, and sustainable systems.
 
-[jekyll-organization]: https://github.com/jekyll

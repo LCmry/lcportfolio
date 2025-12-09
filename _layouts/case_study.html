@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<article class="case-study">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      {% if page.role %}{{ page.role }}{% endif %}
+      {% if page.company %} &mdash; {{ page.company }}{% endif %}
+    </p>
+  </header>
+
+  {% if page.overview %}
+    <section>
+      <h2>Overview</h2>
+      <p>{{ page.overview }}</p>
+    </section>
+  {% endif %}
+
+  {% if page.problem %}
+    <section>
+      <h2>Problem / Context</h2>
+      <p>{{ page.problem }}</p>
+    </section>
+  {% endif %}
+
+  {% if page.role_detail %}
+    <section>
+      <h2>My Role</h2>
+      {{ page.role_detail | markdownify }}
+    </section>
+  {% endif %}
+
+  {% if page.actions %}
+    <section>
+      <h2>What I Did</h2>
+      {{ page.actions | markdownify }}
+    </section>
+  {% endif %}
+
+  {% if page.artifacts %}
+    <section>
+      <h2>Artifacts & Deliverables</h2>
+      {{ page.artifacts | markdownify }}
+    </section>
+  {% endif %}
+
+  {% if page.impact %}
+    <section>
+      <h2>Impact</h2>
+      {{ page.impact | markdownify }}
+    </section>
+  {% endif %}
+
+  {{ content }}
+</article>

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="projects">
+  <h1>{{ page.title }}</h1>
+  {% if page.intro %}
+    <p>{{ page.intro }}</p>
+  {% endif %}
+
+  <ul class="project-list">
+    {% assign sorted = site.case_studies | sort: "order" %}
+    {% for case in sorted %}
+      <li class="project-list-item">
+        <h2><a href="{{ case.url | relative_url }}">{{ case.title }}</a></h2>
+        <p class="meta">
+          {% if case.role %}{{ case.role }}{% endif %}
+          {% if case.company %} &mdash; {{ case.company }}{% endif %}
+        </p>
+        <p>{{ case.summary }}</p>
+        <p><a href="{{ case.url | relative_url }}">Read case study →</a></p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

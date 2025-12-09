@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="about">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+
+  {% if page.skills %}
+    <section class="skills">
+      <h2>Skills & Focus Areas</h2>
+      <ul>
+        {% for skill in page.skills %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+</article>
