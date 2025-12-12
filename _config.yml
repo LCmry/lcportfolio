@@ -27,6 +27,7 @@ baseurl: "/lcportfolio" # the subpath of your site, e.g. /blog
 url: "https://lcmry.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 github_username:  LCmry
+linkedin_url: https://www.linkedin.com/in/lauren-crees
 
 collections:
   case_studies:
