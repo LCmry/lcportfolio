@@ -1,10 +1,10 @@
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
 layout: home
 title: "Home"
-intro: >
-  I’m Lauren Crees, a project manager and consultant who helps teams navigate change,
-  improve operations, and deliver projects with clarity and structure.
 ---
 
+# People-Centered Improvement
+
+**Hi, I’m Lauren. I design clear processes that help teams work better together.**
+I specialize in people-centered process development, project coordination, and operational improvement.
+Whether I’m guiding teams through change, simplifying complex workflows, or building structure where it’s needed most, my focus is always on clarity, communication, and continuous learning.

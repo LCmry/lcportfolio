@@ -1,17 +1,10 @@
 ---
 layout: about
 title: "About"
-skills:
-  - Project Management & Coordination
-  - Change Management
-  - Operations & Process Improvement
-  - Stakeholder Communication
-  - Onboarding & Team Enablement
-  - Customer-Centered Quality Practices
 ---
 
-I’m a project manager and consultant with a background in engineering management,
-anthropology, and computer science. I help teams navigate complexity by creating clear
+I’m a project manager and consultant with a background in software engineering management,
+accounting, anthropology, and computer science. I help teams navigate complexity by creating clear
 systems, communication structures, and actionable plans.
 
 My experience includes:
@@ -21,5 +14,20 @@ My experience includes:
 - Improving operational clarity for construction and service businesses
 - Supporting clients in achieving customer-centered quality certifications
 
-I enjoy turning messy, ambiguous situations into calm, structured, and sustainable systems.
+### I meet people where they're at and take them where they want to go.
+
+
+
+
+## Skills & Focus Area
+  - Project Management & Coordination
+  - Change Management
+  - Operations & Process Improvement
+  - Stakeholder Communication
+  - Onboarding & Team Enablement
+  - People-Centered Process Development
+
+
+
+In my off time I like reading powerlifting. I have held two Oregon state records in the squat and bench press. Ask me about Nationals!
 

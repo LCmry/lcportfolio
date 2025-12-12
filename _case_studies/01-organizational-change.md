@@ -25,11 +25,6 @@ actions: |
   - Coordinated cross-team projects, ensuring dependencies and risks were visible early  
   - Created and maintained lightweight documentation for team norms, practices, and resources  
   - Identified process bottlenecks and iterated on our workflows to reduce friction
-artifacts: |
-  - Change management workflow diagrams  
-  - Project planning templates and status report formats  
-  - Team documentation hub structure  
-  - Retrospective notes and improvement action lists
 impact: |
   - Improved the team’s ability to adapt to organizational change with less disruption  
   - Increased predictability of delivery through clearer planning and communication  

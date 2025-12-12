@@ -1,42 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+---
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ site.locale | replace: '_', '-' | default: 'en' }}" class="no-js">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      {% if page.title %}
-        {{ page.title }} | {{ site.title }}
-      {% else %}
-        {{ site.title }} – {{ site.tagline }}
-      {% endif %}
-    </title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-        <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/about/' | relative_url }}">About</a>
-          <a href="{{ '/projects/' | relative_url }}">Projects</a>
-          <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        </nav>
-      </div>
-    </header>
 
-    <main class="site-main">
-      <div class="container">
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
+        <div id="main" role="main">
         {{ content }}
+        {% include after-content.html %}
       </div>
-    </main>
+    </div>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
       </div>
-    </footer>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
   </body>
 </html>

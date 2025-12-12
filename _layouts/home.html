@@ -3,12 +3,8 @@ layout: default
 ---
 
 <section class="hero">
-  <h1>{{ site.title }}</h1>
-  <p class="tagline">{{ site.tagline }}</p>
 
-  {% if page.intro %}
-    <p class="intro">{{ page.intro }}</p>
-  {% endif %}
+  {{content}}
 
   <p>
     <a href="{{ '/projects/' | relative_url }}">View case studies →</a>
